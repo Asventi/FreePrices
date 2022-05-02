@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net46</TargetFramework>
     <AssemblyName>FreePrices</AssemblyName>
-    <Description>My first plugin</Description>
-    <Version>1.0.0</Version>
+    <Description>Free price plugin</Description>
+    <Version>1.1.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
@@ -15,7 +15,7 @@
     <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
     <PackageReference Include="UnityEngine.Modules" Version="2018.4.2" IncludeAssets="compile" />
     <Reference Include="Assembly-CSharp">
-      <HintPath>C:\Users\jarna\Desktop\Modding\Plugins\FreePrices\lib\Assembly-CSharp.dll</HintPath>
+      <HintPath>C:\Users\jarna\Desktop\Modding\Assembly-CSharp.dll</HintPath>
     </Reference>
   </ItemGroup>
   
