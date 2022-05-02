@@ -8,7 +8,7 @@ using HarmonyLib;
 
 namespace FreePrices
 {
-    [BepInPlugin("me.asventi.plugins.freeprices", "FreePrices", "1.0.0")]
+    [BepInPlugin("me.asventi.plugins.freeprices", "FreePrices", "1.1.0")]
     public class Plugin : BaseUnityPlugin
     {
         //ConfigFile
