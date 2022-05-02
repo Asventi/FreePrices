@@ -15,7 +15,7 @@
     <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
     <PackageReference Include="UnityEngine.Modules" Version="2018.4.2" IncludeAssets="compile" />
     <Reference Include="Assembly-CSharp">
-      <HintPath>C:\Users\jarna\Desktop\Modding\Plugins\FreePrices\lib\Assembly-CSharp.dll</HintPath>
+      <HintPath>C:\Users\jarna\Desktop\Modding\Assembly-CSharp.dll</HintPath>
     </Reference>
   </ItemGroup>
   

@@ -12,14 +12,14 @@ namespace FreePrices
     public class Plugin : BaseUnityPlugin
     {
         //ConfigFile
-        private ConfigEntry<string> _configPrices;
+        private static ConfigEntry<float> _configPrices;
         //Logging
         private readonly ManualLogSource mainLog = new ManualLogSource("MainLog");
 
         private void Awake()
         {
             //ConfigFile
-            _configPrices = Config.Bind("General", "wip", "wip");
+            _configPrices = Config.Bind("General", "Items Prices", 0f, "Define all items prices");
             //Logging
             BepInEx.Logging.Logger.Sources.Add(mainLog);
             
@@ -37,7 +37,7 @@ namespace FreePrices
         [HarmonyPrefix]
         static bool PatchPrice(ref float __result)
         {
-            __result = 0f;
+            __result = _configPrices.Value;
             return false;
         }
     }
